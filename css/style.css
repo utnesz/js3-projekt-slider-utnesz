@@ -1,0 +1,90 @@
+:root {
+    --container__height: 600px;
+}
+
+html {
+    margin:0;
+    padding:0;  
+}
+
+body {
+    background-color: #3d1d00;
+}
+
+img {
+    width: 800px;
+    height: var(--container__height);
+    object-fit: cover;
+    z-index: -1;
+    display: flex;
+}
+
+.slide_container {
+    opacity: 100%;
+    background-color: none;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 50%;
+    left: 50%;
+    margin:-300px 0 0 -400px;
+}
+
+.arrow_left {
+    position: absolute;
+    left: 10px;
+    top: 47%;
+    display:flex;
+    z-index: 0;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.arrow_right {  
+    position: absolute;
+    top: 47%;
+    right: 10px;
+    display: flex;
+    z-index: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.counter {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    z-index: 0;
+    color: #fff;
+}
+
+.dots {
+    width: 80px;
+    color: #fff;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    margin: 40% 0 0 -50px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.tag {
+    width: 80px;
+    color: #fff;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    top: 40%;
+    left: 50%;
+    margin: 40% 0 0 -50px;
+    text-align: center;
+    justify-content: center;
+}
