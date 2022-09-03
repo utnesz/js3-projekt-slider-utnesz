@@ -6,7 +6,6 @@ const imgCont = document.querySelector(".imgCont");
 const arrow_right = document.querySelector(".arrow_right");
 const tag = document.querySelector(".tag")
 const dots = document.querySelector(".dots")
-const slideContainer = document.querySelector(".slide_container");
 let img_main;
 
 let picId = 0;
@@ -18,11 +17,11 @@ img_main = document.querySelector(".inner_image");
 
 img_main.setAttribute("src", pictures[0].src);
 
-const dotsTemplate = `<img class="hop" src="./pictures/hop.png" alt=""></img>`;
+/*const dotsTemplate = `<img class="hop" src="./pictures/hop.png" alt=""></img>`;
 dots.innerHTML += (dotsTemplate);
 dotsTemplate.forEach((pictures, ) => {
     
-});
+});*/
 
 arrow_right.addEventListener("click", () => {
     picId === pictures.length-1 ? picId = 0 : picId++;
