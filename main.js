@@ -19,12 +19,14 @@ img_main.setAttribute("src", pictures[0].src);
 
 
 
-const dotsTemplate = `<img class="hop" src="./pictures/hop.png" alt=""></img>`;
+/*const dotsTemplate = `<img class="hop" src="./pictures/hop.png" alt="hop"/img>`;
 
-pictures.forEach(() => dots.innerHTML = (dotsTemplate));
+let ndDots = 0;
+for (let i = 0; i < pictures.length; i++) {
+    if (PicId[i].id === '0') counter++;
+};*/
 
-
-
+console.log(counter)
 
 arrow_right.addEventListener("click", () => {
     picId === pictures.length-1 ? picId = 0 : picId++;
