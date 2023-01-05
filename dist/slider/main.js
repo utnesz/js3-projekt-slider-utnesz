@@ -6,8 +6,8 @@ const imgCont = document.querySelector(".imgCont");
 const arrow_right = document.querySelector(".arrow_right");
 const tag = document.querySelector(".tag")
 const hops = Array.from(document.querySelectorAll(".hop"));
-let img_main;
 
+let img_main;
 
 let picId = 0;
 
