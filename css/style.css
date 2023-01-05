@@ -11,15 +11,25 @@ html {
 
 body {
     background-color: #313131;
-
+    width: auto;
     
 }
 
+h5 {
+    display: flex;
+    align-items: flex-end;
+    color: #ffffff;
+    text-align: start;
+    width: 16%;
+    padding: 20px;
+}
+
 header {
-    color: #fff;
+    display: inline-block;
+    color: #ffffff;
     text-align: center;
-    font-size: 3rem;
-    padding: 50px 0 0 0;
+    font-size: 2rem;
+    padding: 10px;
 }
 
 .inner_image {
@@ -29,6 +39,7 @@ header {
     z-index: -1;
     display: flex;
     animation: fadein 2s;
+    border-radius: 1rem;
 }
 
 @keyframes fadein {
@@ -54,7 +65,7 @@ header {
     top: 47%;
     z-index: 100;
     display:flex;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
     opacity: 0.3;
 
@@ -119,9 +130,6 @@ header {
     padding: 0 10px;
 }
 
-.hop:hover {
-    filter: invert(50%)
-}
 
 .tag {
     width:auto;
@@ -133,7 +141,6 @@ header {
     flex-wrap: wrap;
     z-index: 1;
     top: 40%;
-    left: %;
     margin: 40% 0 0 -50px;
     text-align: center;
     justify-content: center;

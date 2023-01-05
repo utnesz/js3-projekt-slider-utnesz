@@ -5,20 +5,20 @@ const pictures =
     [{
         id: 0,
         src: "./pictures/ipa.jpg",
-        tag: "Indai Pale Ale - starter  of the craft beer revolution in Hungary",
+        tag: "Indai Pale Ale - starter of the craft beer revolution in Hungary",
 
     },
 
     {
         id: 1,
         src: "./pictures/porter.jpg",
-        tag: "Porter - Deserves moch more attention...",
+        tag: "Porter - Deserves much more attention...",
     },
 
     {
         id: 2,
         src: "./pictures/neipa.jpg",
-        tag: "New Englad India Pale Ale - Hurricane of hop aromas...",
+        tag: "New England India Pale Ale - Hurricane of hop aromas...",
     },
 
     {
